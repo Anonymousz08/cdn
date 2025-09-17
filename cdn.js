@@ -1,4 +1,4 @@
-// LumeButton.js - Fixed Hover/Active States Version
+// LumeButton.js - Amrit
 
 export class LumeButton extends HTMLElement {
   constructor() {
@@ -730,6 +730,6 @@ export class LumeButton extends HTMLElement {
 }
 
 // Register the custom element
-if (!customElements.get("lume-button")) {
-  customElements.define("lume-button", LumeButton);
+if (!customElements.get("amrit")) {
+  customElements.define("amrit", LumeButton);
 }
